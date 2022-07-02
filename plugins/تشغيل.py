@@ -481,7 +481,7 @@ async def stop(client, m: Message):
     else:
         await m.reply("مفيش حاجه شغاله عشان اسكت")
 
-@Client.on_message(command2(["تحديث""]))
+@Client.on_message(command2(["تحديث"]))
 @errors
 @authorized_users_only
 async def update_admin(client, message):

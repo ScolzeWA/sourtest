@@ -463,7 +463,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_text("❌ **قائمة التشغيل فارغه**")
 
-@Client.on_message(command(["reload","reloadadmincache""]))
+@Client.on_message(command(["reload","reloadadmincache"]))
 @errors
 @authorized_users_only
 async def update_admin(client, message):
