@@ -1,6 +1,6 @@
 from pyrogram import Client
 from pyrogram.types import Message
-from config import BOT_USERNAME
+from modules.config import BOT_USERNAME
 from modules.helpers.filters import command2, other_filters
 from modules.helpers.get_file_id import get_file_id
 
