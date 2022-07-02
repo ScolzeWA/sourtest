@@ -1,6 +1,6 @@
 from pyrogram import filters
 from typing import List, Union
-from config import COMMAND_PREFIXES
+from modules.config import COMMAND_PREFIXES
 
 COMMAND_YYYBD = None
 
